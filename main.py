@@ -175,7 +175,6 @@ def collect_system_info():
 if __name__ == "__main__":
     try:
         print(f"{time.strftime('%Y-%m-%d %H:%M:%S')} - Starting the program...")
-        time.sleep(5)
         collect_system_info()
         print(f"{time.strftime('%Y-%m-%d %H:%M:%S')} - Program completed.")
     except Exception as e:
